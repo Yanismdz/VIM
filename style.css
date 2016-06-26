@@ -62,6 +62,8 @@ html
 
 header
 {
+    padding-top:3%;
+    padding-bottom:3%;
     color: white;
     background-image: url(background2.png);
 }
@@ -71,5 +73,48 @@ header
     body
     {
 	width:100%;
+    }
+}
+
+@media all and (max-width: 820px)
+{
+    body
+    {
+	width:100%;
+    }
+
+    div
+    {
+	margin-right:5%;
+    }
+}
+
+@media all and (max-width: 680px)
+{
+    div
+    {
+	margin-right:0%;
+    }
+}
+
+@media all and (max-width: 544px)
+{
+    nav
+    {
+	text-align:center;
+	display:block;
+	font-weight:bold;
+    }
+    .menu
+    {
+	text-align:left;
+    }
+}
+
+@media all and (max-width: 518px)
+{
+    .menu
+    {
+	text-align:center;
     }
 }
