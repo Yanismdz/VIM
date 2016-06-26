@@ -8,81 +8,86 @@
     <header>
 	<h1>Cheatsheet Vim</h1>	<!-- The big title -->
 	<nav> <!-- Navigation bar -->
-	    <div class="menu">BASICS</div>
-	    <div class="menu">DELETE/MODIFIE</div>
-	    <div class="menu">INSERTION</div>
-	    <div class="menu">CUT/COPY/PASTE</div>
-	    <div class="menu">RESEARCH/POSITION</div>
-	    <div class="menu">EXTERNAL CMD</div>		    
+	    <div class="menu"><a href="#bsc">BASICS</a></div>
+	    <div class="menu"><a href="#rm">DELETE/MODIFIE</a></div>
+	    <div class="menu"><a href="#ins">INSERTION</a></div>
+	    <div class="menu"><a href="#ccp">CUT/COPY/PASTE</a></div>
+	    <div class="menu"><a href="#sch">RESEARCH/POSITION</a></div>
+	    <div class="menu"><a href="#excmd">EXTERNAL CMD</a></div>		    
 	</nav>
     </header>
     <body>
 	<section>
-	<div class ="bsc">
-	    <h2>Basics</h2>	<!-- List of all basic commands -->
-	    <dl class="basics">
-		<dt>Move the cursor</dt>
-		<dd>Left -> h</dd>
-		<dd>Right -> i</dd>
-		<dd>Bottom -> j</dd>
-		<dd>Top -> k</dd>
-		<dt>Leave without saving</dt>
-		<dd>Escape:q! Enter</dd>
-		<dt>Save and leave</dt>
-		<dd>Escape:wq Enter</dd>
-		<dt>Delete a letter in normal mode</dt>
-		<dd>x</dd>
-		<dt>Turn into insert mode</dt>
-		<dd>i</dd>
-		<dt>Leave insert mode</dt>
-		<dd>Escape</dd>
-	    </dl>
-	</div>
-	<div class="rm">
-	    <h2>Delete/Modify</h2> <!-- List of delete/modify commands -->
-	    <dl class="modif">
-		<dt>Delete from the cursor to the end of the word</dt>
-		<dd>dw</dd>
-		<dt>Delete from the cursor to the end of the line</dt>
-		<dd>d$</dd>
-		<dt>Delete all the line</dt>
-		<dd>dd</dd>
-		<dt>Undo last action</dt>
-		<dd>u</dd>
-		<dt>Undo change on a line</dt>
-		<dd>U</dd>
-	    </dl>
-	</div>
-	<div class="ins">
-	    <h2>Insertion</h2> <!-- Insertion commands -->
-	    <dl class="insert">
-		<dt>Open a line on insert mode under the cursor</dt>
-		<dd>o</dd>
-		<dt>Open a line on insert mode on top of the cursor</dt>
-		<dd>O</dd>
-		<dt>Insert text after the cursor</dt>
-		<dd>a</dd>
-		<dt>Insert text at the end of the line</dt>
-		<dd>A</dd>
-		<dt>Replace the letter on the cursor</dt>
-		<dd>r</dd>
-		<dt>Turn into replace mode</dt>
-		<dd>R</dd>
-	    </dl>
-	</div>
-	<div class="ccp">
-	    <h2>Cut/Copy/Paste</h2>	<!-- Cut/Copy/Paste commands -->
-	    <dl class="ccc">
-		<dt>Cut the text</dt>
-		<dd>dd</dd>
-		<dt>Paste the text after the common position</dt>
-		<dd>p</dd>
-		<dt>Paste the text before or on top of common position</dt>
-		<dd>P</dd>
-	    </dl>
-	</div>
-	<div class="sch">
-	    <h2>Research/Position</h2> <!-- Research and position commands -->
+	    <div class="bsc">
+		<a name="bsc"></a>
+		<h2>Basics</h2>	<!-- List of all basic commands -->
+		<dl class="basics">
+		    <dt>Move the cursor</dt>
+		    <dd>Left -> h</dd>
+		    <dd>Right -> i</dd>
+		    <dd>Bottom -> j</dd>
+		    <dd>Top -> k</dd>
+		    <dt>Leave without saving</dt>
+		    <dd>Escape:q! Enter</dd>
+		    <dt>Save and leave</dt>
+		    <dd>Escape:wq Enter</dd>
+		    <dt>Delete a letter in normal mode</dt>
+		    <dd>x</dd>
+		    <dt>Turn into insert mode</dt>
+		    <dd>i</dd>
+		    <dt>Leave insert mode</dt>
+		    <dd>Escape</dd>
+		</dl>
+	    </div>
+	    <div class="rm">
+		<a name="rm"></a>
+		<h2>Delete/Modify</h2> <!-- List of delete/modify commands -->
+		<dl class="modif">
+		    <dt>Delete from the cursor to the end of the word</dt>
+		    <dd>dw</dd>
+		    <dt>Delete from the cursor to the end of the line</dt>
+		    <dd>d$</dd>
+		    <dt>Delete all the line</dt>
+		    <dd>dd</dd>
+		    <dt>Undo last action</dt>
+		    <dd>u</dd>
+		    <dt>Undo change on a line</dt>
+		    <dd>U</dd>
+		</dl>
+	    </div>
+	    <div class="ins">
+		<a name="ins"></a>
+		<h2>Insertion</h2> <!-- Insertion commands -->
+		<dl class="insert">
+		    <dt>Open a line on insert mode under the cursor</dt>
+		    <dd>o</dd>
+		    <dt>Open a line on insert mode on top of the cursor</dt>
+		    <dd>O</dd>
+		    <dt>Insert text after the cursor</dt>
+		    <dd>a</dd>
+		    <dt>Insert text at the end of the line</dt>
+		    <dd>A</dd>
+		    <dt>Replace the letter on the cursor</dt>
+		    <dd>r</dd>
+		    <dt>Turn into replace mode</dt>
+		    <dd>R</dd>
+		</dl>
+	    </div>
+	    <div class="ccp">
+	    	<a name="ccp"></a>
+		<h2>Cut/Copy/Paste</h2>	<!-- Cut/Copy/Paste commands -->
+		<dl class="ccc">
+		    <dt>Cut the text</dt>
+		    <dd>dd</dd>
+		    <dt>Paste the text after the common position</dt>
+		    <dd>p</dd>
+		    <dt>Paste the text before or on top of common position</dt>
+		    <dd>P</dd>
+		</dl>
+	    </div>
+	    <div class="sch">
+		<a name="sch"></a>
+		<h2>Research/Position</h2> <!-- Research and position commands -->
 	    <dl class="srch">
 		<dt>Display the position en stat of the file</dt>
 		<dd>Ctrl+G</dd>
@@ -93,20 +98,21 @@
 		<dt>Research behind</dt>
 		<dd>?</dd>
 	    </dl>
-	</div>
-	<div class="excmd">
-	    <h2>External Command</h2> <!-- External command list -->
-	    <dl class="cmd">
-		<dt>Execute a commande</dt>
-		<dd>:!command</dd>
-		<dt>Display a directorie</dt>
-		<dd>:!ls</dd>
+	    </div>
+	    <div class="excmd">
+		<a name="excmd"></a>
+		<h2>External Command</h2> <!-- External command list -->
+		<dl class="cmd">
+		    <dt>Execute a commande</dt>
+		    <dd>:!command</dd>
+		    <dt>Display a directorie</dt>
+		    <dd>:!ls</dd>
 		<dt>Remove a file</dt>
-		<dd>:!rm **name of the file**</dd>
-		<dt>Save the file</dt>
-		<dd>:w **name of the file**</dd>
-	    </dl>
-	</div>
+		    <dd>:!rm **name of the file**</dd>
+		    <dt>Save the file</dt>
+		    <dd>:w **name of the file**</dd>
+		</dl>
+	    </div>
 	</section>
     </body>
 </html>
