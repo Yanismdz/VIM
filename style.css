@@ -60,6 +60,11 @@ html
     background-color:white;
 }
 
+img
+{
+    display:none;x
+}
+
 header
 {
     padding-top:3%;
@@ -67,6 +72,23 @@ header
     color: white;
     background-image: url(background2.png);
 }
+
+a:link
+{
+    color:white;
+    text-decoration:none;
+}
+
+a:visited
+{
+    color:white;
+    text-decoration:none;
+}
+
+a:hover
+      {
+	  color:grey;
+      }
 
 @media all and (max-width: 900px)
 {
@@ -99,6 +121,15 @@ header
 
 @media all and (max-width: 544px)
 {
+    img
+    {
+	display:block;
+	position:fixed;
+	bottom:0px;
+	right:0px;
+	width:40px;
+		 
+    }
     nav
     {
 	text-align:center;
